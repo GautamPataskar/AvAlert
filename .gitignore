@@ -65,3 +65,64 @@ firebase-debug.*.log
 # Logs
 *.log
 logs/
+
+# Additional ML & Data
+*.mlmodel
+*.tflite
+*.pkl
+wandb/
+mlruns/
+tensorboard/
+checkpoints/
+
+# Kubernetes
+*.kubeconfig
+k8s-*
+charts/
+values*.yaml
+
+# CI/CD
+.github/workflows/*.yaml
+.gitlab-ci.yml
+jenkins/
+
+# Monitoring & Observability
+prometheus/
+grafana/
+elastic/
+kibana/
+jaeger/
+
+# Testing & Quality
+coverage/
+.coverage
+pytest/
+test-results/
+quality-reports/
+sonar/
+
+# Documentation
+docs/_build/
+site/
+sphinx/
+
+# Security
+*.pem
+*.key
+*.crt
+secrets/
+vault/
+
+# Mobile Specific
+# Android
+google-services.json
+release/
+*.keystore
+*.jks
+
+# Development
+.devcontainer/
+.pytest_cache/
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
